@@ -24,7 +24,7 @@ if not os.path.exists(target_directory):
 else:
     for fl in os.listdir(target_directory):
         fl_path = target_directory + fl
-        ios.remove(fl_path)
+        os.remove(fl_path)
 
 # Add the images of the message characters to the MESSAGE directory 
 cnt = 0
