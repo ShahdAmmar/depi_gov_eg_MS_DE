@@ -241,7 +241,7 @@ while run:
                 ]
 
     if flag2 == 1:
-        if !solveGame(defaultGrid, 0, 0):
+        if not solveGame(defaultGrid, 0, 0):
             error = 1
         else:
             result = 1
