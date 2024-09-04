@@ -12,4 +12,5 @@ To setup the `CompanyDB` database, run the SQL scripts in the following order:
 3. group1_create_tables.sql
 4. group1_alter_tables.sql
 5. group1_insert_data.sql
+   
 **Note**: group1_insert_data.sql insert records into all tables in the database, not only the `Departments` and `Employees` tables. To avoid errors, ensure that all tables exist before running this script.
